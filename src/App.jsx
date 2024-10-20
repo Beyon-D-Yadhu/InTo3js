@@ -21,8 +21,13 @@ function App() {
           <mesh rotation ={[Math.PI / 10,10,10]}>
 // three-fiber usage
             <torusGeometry /> 
+            {/* <sphereGeometry /> */}
             <meshNormalMaterial/>
           </mesh>
+          {/* <mesh rotation={[Math.PI / 10,10,10]}>
+            <torusGeometry />
+            <meshToonMaterial />
+          </mesh>*/}
         </Canvas>
       </div>
     </div>
